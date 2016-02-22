@@ -3,11 +3,19 @@
   /// <summary>
   /// class containing mathematic functions
   /// </summary>
-  class Mathematics
+  public class Mathematics
   {
+    #region Constructor
+    /// <summary>
+    /// Constructor for mathematic class
+    /// </summary>
+    public Mathematics()
+    { }
+    #endregion
+
     #region Addition
     /// <summary>
-    /// Added two 8Bit values
+    /// Add two 8Bit values
     /// </summary>
     /// <param name="summand1">first 8Bit value</param>
     /// <param name="summand2">second 8Bit value</param>
@@ -34,7 +42,7 @@
     }
 
     /// <summary>
-    /// Added two 16Bit values
+    /// Add two 16Bit values
     /// </summary>
     /// <param name="summand1">first 16Bit value</param>
     /// <param name="summand2">second 16Bit value</param>
@@ -61,7 +69,7 @@
     }
 
     /// <summary>
-    /// Added two 32Bit values
+    /// Add two 32Bit values
     /// </summary>
     /// <param name="summand1">first 32bit value</param>
     /// <param name="summand2">second 32Bit value</param>
@@ -88,7 +96,7 @@
     }
 
     /// <summary>
-    /// Added two 64Bit values
+    /// Add two 64Bit values
     /// </summary>
     /// <param name="summand1">first 64Bit value</param>
     /// <param name="summand2">second 64Bit value</param>
@@ -115,7 +123,7 @@
     }
 
     /// <summary>
-    /// Added two float values
+    /// Add two float values
     /// </summary>
     /// <param name="summand1">first float value</param>
     /// <param name="summand2">second float value</param>
@@ -142,7 +150,7 @@
     }
 
     /// <summary>
-    /// Added two double values
+    /// Add two double values
     /// </summary>
     /// <param name="summand1">first double value</param>
     /// <param name="summand2">second double value</param>
@@ -167,7 +175,6 @@
       // no overflow, return result 
       return summand1 + summand2;
     }
-
     #endregion
   }
 }
